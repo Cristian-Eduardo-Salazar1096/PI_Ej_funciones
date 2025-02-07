@@ -1,22 +1,33 @@
-//funcion que no devuelve valor
-//funcion saludar
+// Función para sumar dos números
+double sumar(double a, double b) {
+  return a + b;
+}
 
-void saludar(){
- print("hola mundo");
- }
+// Función para restar dos números
+double restar(double a, double b) {
+  return a - b;
+}
 
-void escribeNombre(){
- print("Cristian Salazar");
- }
+// Función para multiplicar dos números
+double multiplicar(double a, double b) {
+  return a * b;
+}
 
-void main(){
- //Cristian Salazar Mat:22308051281096
- //llamado a la funcion saludar
+// Función para dividir dos números
+double dividir(double a, double b) {
+  if (b == 0) {
+    print("Error: División por cero");
+    return double.nan;
+  }
+  return a / b;
+}
 
- print("Cristian Salazar Mat:22308051281096");
- print("llamado a la funcion saludar");
- saludar();
- print("llamado a la funcion escribeNombre");
- escribeNombre();
- 
- }
+void main() {
+  double num1 = 10;
+  double num2 = 5;
+
+  print("Suma: ${sumar(num1, num2)}");
+  print("Resta: ${restar(num1, num2)}");
+  print("Multiplicación: ${multiplicar(num1, num2)}");
+  print("División: ${dividir(num1, num2)}");
+}
