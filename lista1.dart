@@ -15,7 +15,7 @@ void main() {
   List<String> amigos = ["Cristian", "Juan", "Pedro", "Luis", "Maria"];
   // imprimir la lista de estaturas y amigos
   for (int i = 0; i < amigos.length; i++) {
-    print("Amigo: ${amigos[0]} Estatura: ${estaturas[0]}");
+    print("Amigo: ${amigos[i]} Estatura: ${estaturas[i]}");
   }
 
 }
