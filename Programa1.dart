@@ -1,5 +1,5 @@
 import 'dart:io';
-
+// Cristian Salazar Mat: 22308051281096
 // Función para capturar los datos de la lista
 List<int> capturarDatos() {
   List<int> lista = [];
@@ -26,6 +26,7 @@ void mostrarSuma(List<int> lista) {
 }
 
 void main() {
+  print("Cristian Salazar Mat: 22308051281096");
   // Capturar los datos de la lista
   List<int> lista = capturarDatos();
 
